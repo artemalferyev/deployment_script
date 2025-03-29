@@ -26,7 +26,7 @@ Usage:
 	•	BRANCH: Git branch you wish to deploy (e.g., main).
 	•	SERVICE_NAME: The name of the service to restart (e.g., myapp).
  
-	2.	Execute the script on your local machine or CI/CD pipeline:
+2.	Execute the script on your local machine or CI/CD pipeline:
 
  ./deploy.sh
 
