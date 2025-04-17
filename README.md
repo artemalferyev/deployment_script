@@ -1,10 +1,10 @@
 Deployment Script
 
-Overview
+##Overview:
 
 This bash script automates the deployment of a web application to a remote server. It pulls the latest changes from a specified Git repository and restarts the service to apply those changes. The script ensures that the deployment is carried out smoothly by performing checks and logging the status of each operation.
 
-Features:
+##Features:
 	•	Connects to a remote server via SSH.
 	•	Pulls the latest changes from a specified Git repository and branch.
 	•	Checks if the specified deployment directory exists.
