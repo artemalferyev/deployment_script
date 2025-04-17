@@ -21,7 +21,8 @@ Prerequisites:
 	•	The server must have the necessary permissions to restart the service.
 
 Usage:
-	1.	Update the following variables in the script:
+
+1.	Update the following variables in the script:
 	•	REMOTE_SERVER: SSH login credentials of your remote server (e.g., user@your-server-ip).
 	•	REMOTE_DIR: Path to the deployment directory on the remote server.
 	•	GIT_REPO: URL of the Git repository to fetch from (e.g., git@github.com:yourusername/yourrepo.git).
