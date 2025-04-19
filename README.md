@@ -44,12 +44,14 @@ SERVICE_NAME="myapp"
 ./deploy.sh
 
 Notes:
+
 	•	The script uses ssh to connect to the remote server and perform the deployment steps.
 	•	Ensure that your SSH keys are configured for passwordless login.
 	•	The script uses git pull to fetch changes from the remote repository.
 	•	The service is restarted using systemctl, and if it fails to restart, the script will exit with an error.
 
 Troubleshooting:
+
 	•	If the script fails to connect to the remote server, verify that your SSH credentials and server IP are correct.
 	•	If the Git pull fails, check your repository access permissions or verify that the branch exists.
 	•	If the service fails to restart, review the logs using journalctl -u myapp (replace myapp with your service name).
