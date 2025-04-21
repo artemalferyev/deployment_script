@@ -24,21 +24,29 @@ Usage:
 
 1.	Update the following variables in the script:
 	•	REMOTE_SERVER: SSH login credentials of your remote server (e.g., user@your-server-ip).
+
 	•	REMOTE_DIR: Path to the deployment directory on the remote server.
+
 	•	GIT_REPO: URL of the Git repository to fetch from (e.g., git@github.com:yourusername/yourrepo.git).
+
 	•	BRANCH: Git branch you wish to deploy (e.g., main).
+
 	•	SERVICE_NAME: The name of the service to restart (e.g., myapp).
  
-2.	Execute the script on your local machine or CI/CD pipeline:
+3.	Execute the script on your local machine or CI/CD pipeline:
 
  ./deploy.sh
 
  Example:
 
- REMOTE_SERVER="user@your-server-ip"
+REMOTE_SERVER="user@your-server-ip"
+
 REMOTE_DIR="/var/www/myapp"
+
 GIT_REPO="git@github.com:yourusername/myapp.git"
+
 BRANCH="main"
+
 SERVICE_NAME="myapp"
 
 ./deploy.sh
